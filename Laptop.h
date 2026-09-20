@@ -18,7 +18,7 @@ private:
     RAM ram;
 
 public:
-    static int count; // Статичне поле
+    static int count; 
 
     Laptop(const char* m, double p, const char* cpuName, const char* ssdBrand, const char* gpuName, const char* ramType);
     Laptop(const Laptop& obj);
